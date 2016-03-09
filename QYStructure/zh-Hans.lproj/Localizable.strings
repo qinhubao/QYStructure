@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  QYStructure
+
+  Created by Bell Lake on 16/3/8.
+  Copyright © 2016年 Bell Lake. All rights reserved.
+*/
+
+"输入用户名"="输入用户名";
+"输入密码"="输入密码";
+"输入验证码"="输入验证码";
+"登录"="登录";
+"发送验证码"="发送验证码";
+"首页"="首页";
