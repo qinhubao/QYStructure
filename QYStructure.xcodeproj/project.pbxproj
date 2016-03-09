@@ -15,6 +15,7 @@
 		284361AC1C8D75850098C848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284361AA1C8D75850098C848 /* LaunchScreen.storyboard */; };
 		284361B71C8D75850098C848 /* QYStructureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 284361B61C8D75850098C848 /* QYStructureTests.m */; };
 		284361C21C8D75860098C848 /* QYStructureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 284361C11C8D75860098C848 /* QYStructureUITests.m */; };
+		287FB5B61C8EC78300D3761D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 287FB5B81C8EC78300D3761D /* Localizable.strings */; };
 		28FE63F61C8DD30700E3CC82 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FE63A81C8DD30700E3CC82 /* LoginViewController.m */; };
 		28FE63F71C8DD30700E3CC82 /* AIFCommonParamsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FE63AE1C8DD30700E3CC82 /* AIFCommonParamsGenerator.m */; };
 		28FE63F81C8DD30700E3CC82 /* AIFRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FE63B01C8DD30700E3CC82 /* AIFRequestGenerator.m */; };
@@ -73,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28373C441C8EC4D600C728F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		284361991C8D75850098C848 /* QYStructure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYStructure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2843619D1C8D75850098C848 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2843619F1C8D75850098C848 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,13 +84,13 @@
 		284361A61C8D75850098C848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		284361A81C8D75850098C848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284361AB1C8D75850098C848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		284361AD1C8D75850098C848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		284361B21C8D75850098C848 /* QYStructureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYStructureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		284361B61C8D75850098C848 /* QYStructureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYStructureTests.m; sourceTree = "<group>"; };
 		284361B81C8D75860098C848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		284361BD1C8D75860098C848 /* QYStructureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYStructureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		284361C11C8D75860098C848 /* QYStructureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYStructureUITests.m; sourceTree = "<group>"; };
 		284361C31C8D75860098C848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287FB5BA1C8EC7F100D3761D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		28FE63A71C8DD30700E3CC82 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		28FE63A81C8DD30700E3CC82 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		28FE63AA1C8DD30700E3CC82 /* AIFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFNetworking.h; sourceTree = "<group>"; };
@@ -247,7 +249,7 @@
 				284361A51C8D75850098C848 /* Main.storyboard */,
 				284361A81C8D75850098C848 /* Assets.xcassets */,
 				284361AA1C8D75850098C848 /* LaunchScreen.storyboard */,
-				284361AD1C8D75850098C848 /* Info.plist */,
+				28373C451C8EC4D600C728F9 /* Info.plist */,
 				2843619C1C8D75850098C848 /* Supporting Files */,
 			);
 			path = QYStructure;
@@ -258,6 +260,7 @@
 			children = (
 				28FE64171C8DD6C600E3CC82 /* PrefixHeader.pch */,
 				2843619D1C8D75850098C848 /* main.m */,
+				287FB5B81C8EC78300D3761D /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -543,6 +546,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 284361901C8D75850098C848;
 			productRefGroup = 2843619A1C8D75850098C848 /* Products */;
@@ -562,6 +566,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				284361AC1C8D75850098C848 /* LaunchScreen.storyboard in Resources */,
+				287FB5B61C8EC78300D3761D /* Localizable.strings in Resources */,
 				284361A91C8D75850098C848 /* Assets.xcassets in Resources */,
 				284361A71C8D75850098C848 /* Main.storyboard in Resources */,
 			);
@@ -707,6 +712,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		28373C451C8EC4D600C728F9 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28373C441C8EC4D600C728F9 /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 		284361A51C8D75850098C848 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -721,6 +734,14 @@
 				284361AB1C8D75850098C848 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		287FB5B81C8EC78300D3761D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287FB5BA1C8EC7F100D3761D /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

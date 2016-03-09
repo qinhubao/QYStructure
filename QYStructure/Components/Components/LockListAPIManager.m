@@ -55,7 +55,7 @@
 
 - (BOOL)manager:(RTAPIBaseManager *)manager isCorrectWithParamsData:(NSDictionary *)data
 {
-    if ([data[@"userName"] hasPrefix:@"zhan"]) {
+    if (![data[@"loginUser"] hasPrefix:@"zhan"]) {
         self.errorMessage = @"用户名错误";
         return NO;
     }
